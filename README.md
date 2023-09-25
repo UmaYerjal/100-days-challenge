@@ -5,4 +5,6 @@ Author - Uma Yerjal
 Day 1 - Solve the 2 LeetCode Problems String based
 <br>
         Read the Java Interview Quetions 
+<br>
+Day 2 - Solved the Math Problems on Leetcode
       
