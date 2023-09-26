@@ -15,7 +15,7 @@ public class FindDuplicate {
 // a[] ={1 2 4 1 2 4 2}
 // output:
 // 1 2 4
-public static ArrayList<Integer> duplicates(int arr[], int n) {
+public ArrayList<Integer> duplicates(int arr[], int n) {
     // code here
     ArrayList<Integer> ans = new ArrayList<>();
     Arrays.sort(arr);
@@ -38,7 +38,10 @@ public static ArrayList<Integer> duplicates(int arr[], int n) {
 public static void main(String[] args) {
     int n=7;
     int arr[] = {1,2,4,1,2,4,2};
-    System.out.println(duplicates(arr, n));
+    FindDuplicate ob = new FindDuplicate();
+    System.out.println(ob.duplicates(arr, n));
+    // ArrayList<Integer> ans = duplicates(arr, n);
+    // System.out.println(duplicates(arr, n));
 
 }
 }
