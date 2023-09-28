@@ -1,4 +1,11 @@
 package Day6;
+// Input:
+// n = 5
+// arr[] = {1,2,3,4,5}
+// Output: 2 1 4 3 5
+// Explanation: Array elements after 
+// sorting it in wave form are 
+// 2 1 4 3 5.
 
 public class WaveArray {
     public static void main(String[] args) {
