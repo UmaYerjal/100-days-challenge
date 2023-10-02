@@ -3,7 +3,12 @@ package Day9;
 import java.util.ArrayList;
 
 /**
- * ReverseWordInString
+ Input: s = "Let's take LeetCode contest"
+Output: "s'teL ekat edoCteeL tsetnoc"
+
+Input: s = "God Ding"
+Output: "doG gniD"
+
  */
 public class ReverseWordInString {
 static ArrayList<String> ans = new ArrayList<>();
