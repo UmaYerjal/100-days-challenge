@@ -1,3 +1,5 @@
+package Day30;
+
 public class Sum_Of_Digit {
     public static void main(String[] args) {
         int N=12;
