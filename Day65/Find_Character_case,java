@@ -1,0 +1,22 @@
+public class Find_Character_case{
+    /*
+     return  1 if character is Uppercase
+     return 0 if Character is lower case
+     return -1 otherwise
+     */
+    public static void main(String args[]){
+        char ch = 'U';
+        System.out.println(findCase(ch));
+    }
+    public static int findCase(char ch) {
+        // Write your code here.
+        if(Character.isLowerCase(ch)){
+            return 0;
+        }else if(Character.isUpperCase(ch)){
+            return 1;
+        }
+        else{
+            return -1;
+        }
+    }
+}
