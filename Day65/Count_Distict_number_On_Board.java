@@ -39,10 +39,8 @@ public class Count_Distict_number_On_Board {
         if(n==1 || n==2){
             return 1;
         }
-        int num=0;
         int c=0;
         if(n>2 && n%(n-1)==1){
-            num = n;
             c++;
         }
         c+=n-2;
